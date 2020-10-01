@@ -1,4 +1,75 @@
-* {
-    margin: 0;
-    padding: 0;
-}
+            * {
+                margin: 0;
+                padding: 0;
+            }
+            
+            body {
+                font-family: 'MuseoModerno', cursive;
+                background: #fff url(../imagens/fundo.png) repeat-x;
+            }
+            
+            #conteiner {
+                width: 750px;
+                margin: 0% auto;
+            }
+            
+            #area-topo {
+                height: 150px;
+                background: url(../imagens/detalhe-topo.png) no-repeat top right;
+                padding: 20px 0px;
+            }
+            
+            .logo {
+                width: 152px;
+                height: 66px;
+                background: url(../imagens/logo.png);
+                text-indent: -3000px;
+            }
+            /* barra de navegação*/
+            
+            ul {
+                margin: 0;
+                padding: 0;
+                list-style: none;
+            }
+            
+            #area-topo ul {
+                margin-top: 30px;
+                background: #b10333;
+                float: left;
+            }
+            
+            #area-topo ul li {
+                float: left;
+            }
+            
+            #area-topo ul a {
+                font-size: 0.9em;
+                padding: 0.5em 1.4em;
+                display: block;
+                line-height: 2.1em;
+                text-decoration: none;
+                color: #FFF;
+                background: url(../imagens/divisor.png) repeat-y left center;
+            }
+            
+            #area-topo ul .primeiro a {
+                background: none;
+            }
+            
+            #area-topo ul a:hover {
+                background: #de003e;
+                color: #69001d;
+            }
+            
+            body.home #navegaçao a#home,
+            body.brasil #navegaçao a#brasil,
+            body.internacional #navegaçao a#internacional,
+            body.saude #navegaçao a#saude,
+            body.ciencia #navegaçao a#ciencia,
+            body.economia #navegaçao a#economia,
+            body.fotos #navegaçao a#fotos {
+                background: #de003e;
+                color: #FFF;
+                cursor: text;
+            }
