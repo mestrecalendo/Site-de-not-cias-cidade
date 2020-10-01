@@ -4,7 +4,7 @@
             }
             
             body {
-                font-family: 'MuseoModerno', cursive;
+                font-family: 'Oswald', sans-serif;
                 background: #fff url(../imagens/fundo.png) repeat-x;
             }
             
@@ -79,11 +79,72 @@
                 margin-top: 60px;
             }
             
+            h3 {
+                background: #294970;
+                color: #FFF;
+                padding: 5px;
+                text-align: center;
+            }
+            
+            input {
+                width: 100%;
+                font-size: 0.8em;
+                padding: 2px;
+                margin-top: 1px;
+                margin-bottom: 2px;
+            }
+            
+            input.submit {
+                background: #b10333;
+                color: #FFF;
+                border-color: #de003e;
+            }
+            
+            #lateral ul a {
+                color: black;
+                display: block;
+                padding: 3px;
+                font-size: 0.9em;
+                line-height: 30px;
+                text-decoration: none;
+            }
+            
+            #lateral ul a:hover {
+                columns: #a1a1a1;
+                background: #f9f9f9 url(../imagens/marcador.png) no-repeat left center;
+                padding: 20px;
+            }
+            
+            .caixa {
+                margin: 10px 0;
+                padding: 5px;
+                background: url(../imagens/fundo-caixa.png);
+            }
+            
+            .caixa-conteudo {
+                background: #fff;
+                padding: 10px;
+                margin-top: 5px;
+            }
+            
             #primario {
+                margin: 0 0 15px 195px;
+                float: left;
+                background: rosybrown;
+                width: 270px;
+            }
+            
+            #duas-colunas #primario {
+                width: 555px;
                 margin: 0 0 15px 195px;
                 background: rosybrown;
                 float: left;
-                width: 270px;
+            }
+            
+            #uma-coluna #primario {
+                width: 750px;
+                background: rosybrown;
+                float: right;
             }
             
             #secundario {
@@ -95,7 +156,6 @@
             
             #lateral {
                 margin: 0 0 15px -750px;
-                background: royalblue;
                 float: left;
                 width: 180px;
             }
@@ -105,5 +165,6 @@
                 padding: 20px;
                 background: #294970;
                 color: #FFF;
+                background: rosybrown;
                 text-align: center;
             }
