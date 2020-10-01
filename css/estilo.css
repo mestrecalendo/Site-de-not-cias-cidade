@@ -73,3 +73,37 @@
                 color: #FFF;
                 cursor: text;
             }
+            /*********conteudo noticias********/
+            
+            #area-conteudo {
+                margin-top: 60px;
+            }
+            
+            #primario {
+                margin: 0 0 15px 195px;
+                background: rosybrown;
+                float: left;
+                width: 270px;
+            }
+            
+            #secundario {
+                margin: 0 0 15px 15px;
+                background: red;
+                float: left;
+                width: 270px;
+            }
+            
+            #lateral {
+                margin: 0 0 15px -750px;
+                background: royalblue;
+                float: left;
+                width: 180px;
+            }
+            
+            #area-rodape {
+                clear: both;
+                padding: 20px;
+                background: #294970;
+                color: #FFF;
+                text-align: center;
+            }
