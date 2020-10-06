@@ -130,6 +130,11 @@
                     padding: 20px;
                 }
                 
+                #lista-noticia li:hover {
+                    background: #294970 url(../imagens/marcador.png) no-repeat left center;
+                    color: white;
+                }
+                
                 .caixa {
                     margin: 10px 0;
                     padding: 5px;
@@ -151,13 +156,11 @@
                 #duas-colunas #primario {
                     width: 555px;
                     margin: 0 0 15px 195px;
-                    background: rosybrown;
                     float: left;
                 }
                 
                 #uma-coluna #primario {
                     width: 750px;
-                    background: rosybrown;
                     float: right;
                 }
                 
@@ -189,9 +192,16 @@
                 }
                 
                 #lista-noticia li a h5 {
-                    text-align: center;
+                    padding: 4px;
                     color: #7D9DD2;
                     font-size: 0.8em;
+                }
+                
+                #primario p,
+                #secundario p {
+                    margin-top: 2px;
+                    color: black;
+                    font-size: 0.9em;
                 }
                 
                 #lista-noticia li a p {
